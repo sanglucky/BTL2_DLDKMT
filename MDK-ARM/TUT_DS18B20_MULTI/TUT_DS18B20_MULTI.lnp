@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"tut_ds18b20_multi\startup_stm32f103xb.o"
+"tut_ds18b20_multi\main.o"
+"tut_ds18b20_multi\stm32f1xx_it.o"
+"tut_ds18b20_multi\stm32f1xx_hal_msp.o"
+"tut_ds18b20_multi\stm32f1xx_hal_gpio_ex.o"
+"tut_ds18b20_multi\stm32f1xx_hal_tim.o"
+"tut_ds18b20_multi\stm32f1xx_hal_tim_ex.o"
+"tut_ds18b20_multi\stm32f1xx_hal_uart.o"
+"tut_ds18b20_multi\stm32f1xx_hal.o"
+"tut_ds18b20_multi\stm32f1xx_hal_rcc.o"
+"tut_ds18b20_multi\stm32f1xx_hal_rcc_ex.o"
+"tut_ds18b20_multi\stm32f1xx_hal_gpio.o"
+"tut_ds18b20_multi\stm32f1xx_hal_dma.o"
+"tut_ds18b20_multi\stm32f1xx_hal_cortex.o"
+"tut_ds18b20_multi\stm32f1xx_hal_pwr.o"
+"tut_ds18b20_multi\stm32f1xx_hal_flash.o"
+"tut_ds18b20_multi\stm32f1xx_hal_flash_ex.o"
+"tut_ds18b20_multi\stm32f1xx_hal_exti.o"
+"tut_ds18b20_multi\system_stm32f1xx.o"
+"tut_ds18b20_multi\onewire.o"
+--strict --scatter "TUT_DS18B20_MULTI\TUT_DS18B20_MULTI.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TUT_DS18B20_MULTI.map" -o TUT_DS18B20_MULTI\TUT_DS18B20_MULTI.axf
